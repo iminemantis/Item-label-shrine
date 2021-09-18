@@ -7,7 +7,7 @@ class Header extends HTMLElement {
 
         <div id="header">
 
-            <a href="/item-label-shrine/index.html"><i class="fas fa-home"></i></a>
+            <a href="/item-label-shrine/"><i class="fas fa-home"></i></a>
 
             <div class="links">
                 
