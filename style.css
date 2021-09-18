@@ -45,7 +45,7 @@ body {
 
     padding: 0.5vh 0 0 0;
 }
-.drop a:hover {color: var(--hover); background-color: var(--boxbg);}
+.drop a:hover {color: var(--hover);}
 
 .drop-cont {
     display: none; 
