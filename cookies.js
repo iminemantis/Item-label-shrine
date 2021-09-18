@@ -27,7 +27,6 @@ function checkStyle() {
     console.log(num)
     switch(num) {
         case "1":
-            document.getElementById("style").setAttribute("href","/Item-label-shrine/dark.css");
             break;
         case "2":
             document.getElementById("style").setAttribute("href","/Item-label-shrine/light.css");
