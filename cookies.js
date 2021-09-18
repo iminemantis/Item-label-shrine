@@ -24,7 +24,6 @@ function get(Cname) {
 
 function checkStyle() {
     let num = get("style");
-    console.log(num)
     switch(num) {
         case "1":
             break;

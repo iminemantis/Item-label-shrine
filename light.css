@@ -1,17 +1,20 @@
 :root {
     --col: #7c93c1;
+    --hover: #b9c5dd;
+
     --headBg: #f8f8f8;
     --bg: #F1F1F1;
 
-    --dropcol: #9cb3e1;
-
     --boxshadow: rgba(0, 0, 0, 0.2);
-    --boxbg: rgb(180, 180, 180);
-    --drophover: rgb(233, 233, 233);
+    --boxbg: rgb(255, 255, 255);
+    --drophover: rgb(216, 216, 216);
 
     --sliderbg: #ccc;
     --sliderblue: #2194f3;
     --sliderwhite: white;
+
+    --icon: #999;
+    --iconhov: #555;
 
     --font: "Gill Sans Nova",sans-serif;
 }

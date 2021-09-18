@@ -6,8 +6,11 @@ class Header extends HTMLElement {
         this.innerHTML = `
 
         <div id="header">
-            <div class="links">
 
+            <a href="/item-label-shrine/index.html"><i class="fas fa-home"></i></a>
+
+            <div class="links">
+                
                 <div class="drop">
                     <a href="product pages/peepy.html">peepys</a>
                     <div class="drop-cont">

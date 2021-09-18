@@ -1,9 +1,9 @@
 :root {
     --col: #4b72be;
+    --hover: #9cb3e1;
+
     --headBg: #161616;
     --bg: #202020;
-
-    --dropcol: #9cb3e1;
 
     --boxshadow: rgba(255, 255, 255, 0.05);
     --boxbg: rgb(51, 51, 51);
@@ -12,6 +12,9 @@
     --sliderbg: #ccc;
     --sliderblue: #2194f3;
     --sliderwhite: white;
+
+    --icon: #bbb;
+    --iconhov: white;
 
     --font: "Gill Sans Nova",sans-serif;
 }
