@@ -27,16 +27,15 @@ function checkStyle() {
     console.log(num)
     switch(num) {
         case "1":
-            document.getElementById("style").setAttribute("href","/dark.css");
             break;
         case "2":
-            document.getElementById("style").setAttribute("href","/light.css");
+            document.getElementById("style").setAttribute("href","light.css");
 
             document.getElementById("b01").checked = false;
             break;
         default:
             set("style",1, Infinity)
-            document.getElementById("style").setAttribute("href","/dark.css");
+            document.getElementById("style").setAttribute("href","dark.css");
             break
     }
 }
@@ -46,11 +45,11 @@ function toggleTheme() {
     switch(num) {
         case "1":
             set("style",2, Infinity);
-            document.getElementById("style").setAttribute("href","/light.css");
+            document.getElementById("style").setAttribute("href","light.css");
             break;
         case "2":
             set("style",1, Infinity);
-            document.getElementById("style").setAttribute("href","/dark.css");
+            document.getElementById("style").setAttribute("href","dark.css");
             break;
     }
 }
