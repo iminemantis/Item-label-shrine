@@ -6,7 +6,7 @@ body {
     background-color: var(--bg);
 
     font-family: var(--font);
-    font-size: 1.5vh;
+    font-size: 30px;
 }
 
 
@@ -32,7 +32,9 @@ body {
 
 
 
-
+.pc{
+    display: block;
+}
 .drop {
     position: relative;
     display: inline-block;
@@ -66,6 +68,42 @@ body {
 }
 .drop-cont a:hover {background-color: var(--drophover); transition: 0.3s;}
 .drop:hover .drop-cont {display: block;}
+
+
+
+
+
+.mobile{
+    display: none;
+    flex-direction: column;
+}
+.mobile a{
+    text-decoration: none;
+    color: var(--col);
+}
+.mobile a:hover{
+    color: var(--hover);
+}
+.mobile button{
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.mobile span{
+    position: absolute;
+    top: -1vh;
+
+    font-size: 5vh;
+}
+.mbl{
+    padding-top: 7.5vh;
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (max-width: 600px) {
+    .pc{ display: none;}
+    .mobile{ display: flex;}
+}
 
 
 
@@ -153,7 +191,7 @@ input:checked + .slider:before{
 button{
     background-color: var(--btnbg);
     border: none;
-    
+
     cursor: pointer;
 }
 
