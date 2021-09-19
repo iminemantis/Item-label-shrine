@@ -166,3 +166,28 @@ input:checked + .slider:before{
 .fas:hover{
     color: var(--iconhov);
 }
+
+
+
+
+
+#right{
+    display: flex;
+    justify-content: right;  
+}
+#right table, th, td{
+    border: 0.25vh solid white;
+    border-collapse: collapse;
+    max-width: 30vw;
+}
+#right img{
+    width: 100%;
+}
+#right h6{
+    font-size: 2vh;
+    margin: 0;
+    padding: 1vh 0 0 1vh;
+}
+#right p{
+    padding: 0 1vh 0 1vh;
+}
