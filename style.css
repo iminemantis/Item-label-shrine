@@ -6,7 +6,7 @@ body {
     background-color: var(--bg);
 
     font-family: var(--font);
-    font-size: 30px;
+    font-size: 16px;
 }
 
 
@@ -75,7 +75,7 @@ body {
 
 .mobile{
     display: none;
-    flex-direction: column;
+    width: 25%;
 }
 .mobile a{
     text-decoration: none;
@@ -84,6 +84,13 @@ body {
 .mobile a:hover{
     color: var(--hover);
 }
+
+.mobile label{
+    position: relative;
+    display: inline-block;
+
+    width: 100%;
+}
 .mobile button{
     opacity: 0;
     width: 0;
@@ -91,18 +98,28 @@ body {
 }
 .mobile span{
     position: absolute;
-    top: -1vh;
 
-    font-size: 5vh;
+    top: -0.8vh;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-size: 4vh;
+
+    cursor: pointer;
 }
-.mbl{
-    padding-top: 7.5vh;
-    display: flex;
+
+#mbl{
+    padding-top: 4vh;
+
+    display: none;
     flex-direction: column;
+}
+#mbl a{
+    text-align: center;
 }
 @media screen and (max-width: 600px) {
     .pc{ display: none;}
-    .mobile{ display: flex;}
+    .mobile{ display: block;}
 }
 
 
