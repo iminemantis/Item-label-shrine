@@ -187,15 +187,15 @@ input:checked + .slider:before{
 
 
 
-#page{
+.page{
     margin-top: 5vh;
 }
-#page a{
+.page a{
     text-decoration: none;
 
     color: var(--col);
 }
-#page a:hover{
+.page a:hover{
     color: var(--hover);
 }
 .links-page{
@@ -257,7 +257,7 @@ button{
 
 
 
-#header .notDone, a{
+a.notDone{
     color: red;
     text-decoration: line-through;
 }
