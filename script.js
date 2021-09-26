@@ -72,7 +72,7 @@ function accord(){
     }else{
         document.getElementById("mbl").style.paddingTop="9vh";
         document.getElementById("mbl").style.display="flex";
-        document.getElementById("page").style.marginTop="15vh";
+        document.getElementById("page").style.marginTop="14vh";
         open = false;
     }
 }
