@@ -13,6 +13,7 @@ body {
 
 
 
+
 #header {
     box-sizing: border-box;
 
@@ -250,4 +251,13 @@ button{
 }
 #right p{
     padding: 0 1vh 0 1vh;
+}
+
+
+
+
+
+#header .notDone, a{
+    color: red;
+    text-decoration: line-through;
 }
